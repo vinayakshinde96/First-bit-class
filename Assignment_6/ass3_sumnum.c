@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int sumnum()
+{
+    int start, end, sum = 0;
+
+    printf("Enter start and end: ");
+    scanf("%d%d", &start, &end);
+
+    for(int i = start; i <= end; i++)
+    {
+        sum = sum + i;
+    }
+
+    printf("Sum = %d", sum);
+
+}
+
+int main()
+{
+    sumnum();
+    return 0;
+}
